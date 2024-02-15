@@ -4,7 +4,6 @@ import sys
 
 urlpatterns = []
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -68,7 +67,6 @@ def runtests():
         SSO_PRIVATE_KEY='private',
         SSO_PUBLIC_KEY='public',
         SSO_SERVER='http://localhost/server/',
-        SECRET_KEY = 'test'
     )
     setup()
 
